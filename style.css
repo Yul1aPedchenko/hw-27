@@ -1,18 +1,23 @@
 .nav {
     height: 1000px;
+    width: 500px;
 }
 
 .menu-item {
     position: relative;
+    width: 100%;
+    list-style: none;
+    height: 100%;
 }
 
 .menu {
-    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 500px;
 }
 
 .menu-link {
